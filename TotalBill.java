@@ -10,7 +10,7 @@ class TotalBill{
 		int coldDrink= sc.nextInt();
 
 
-		int result=pizza*100+puffs*20+coldDrink*10;
-		System.out.println(result);
+		double result=pizza*80+puffs*0.25+coldDrink*1.0;
+		System.out.println("Total Price is: "+result);
 	}
 }
