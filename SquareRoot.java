@@ -5,6 +5,6 @@ class SquareRoot{
 		System.out.print("Enter a Number: ");
 		int n =sc.nextInt();
 
-		System.out.println((int)Math.sqrt(n));
+		System.out.println(Math.sqrt(n));
 	}
 }
