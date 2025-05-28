@@ -63,14 +63,17 @@ class BankDriver{
 		String email =sc.next();
 		System.out.println("Address: ");
 		String address =sc.nextLine();
+		sc.nextLine();
 		System.out.println("Contact: ");
 		long contact =sc.nextLong();
 		System.out.println("Adhar NUmber: ");
 		long adhar = sc.nextLong();
 		System.out.println("Pan Number: ");
 		String pan =sc.next();
+		sc.nextLine();
 		System.out.println("Deposit Amount : ");
 		double amount =sc.nextDouble();
+		sc.nextLine();
 		statement.add("Deposit : "+ amount+ "Account Creations");
 		System.out.println("pin: ");
 		int pin =sc.nextInt();
