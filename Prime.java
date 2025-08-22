@@ -1,5 +1,8 @@
+import java.util.Scanner;
 class Prime{
 public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+
 	int num=20;
 	int start =1;
 	int end =num;

@@ -8,10 +8,13 @@ class Exception{
 		int b=sc.nextInt();
 		System.out.print("Answer: ");
 		try{
-			System.out.println(a/b);
+			
+			System.out.println(a/b); /////exception
+			
 		}
 		catch(ArithmeticException e){
 			System.out.println("DO not divide number with zero");
 		}
+		 
 	}
 }
